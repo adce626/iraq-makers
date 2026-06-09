@@ -5,8 +5,7 @@
     "nameEn": "LED Displays",
     "icon": "monitor",
     "description": "شاشات مصفوفة، DOT Matrix، وشاشات LCD/OLED للمشاريع المرئية",
-    "order": 1,
-    "image": "/images/categories/led-displays.jpg"
+    "order": 1
   },
   {
     "id": "arduino-boards",
@@ -14,8 +13,7 @@
     "nameEn": "Arduino & ESP32 Boards",
     "icon": "cpu",
     "description": "لوحات تحكم أصلية ومتوافقة لمشاريع إنترنت الأشياء والأتمتة",
-    "order": 2,
-    "image": "/images/categories/arduino-boards.jpg"
+    "order": 2
   },
   {
     "id": "sensors",
@@ -23,8 +21,7 @@
     "nameEn": "Sensors",
     "icon": "zap",
     "description": "حساس درجة الحرارة، الرطوبة، الحركة، المسافة، والضغط",
-    "order": 3,
-    "image": "/images/categories/sensors.jpg"
+    "order": 3
   },
   {
     "id": "motors-drivers",
@@ -32,8 +29,7 @@
     "nameEn": "Motors & Drivers",
     "icon": "rotate-cw",
     "description": "محركات DC، خطوة، سيرفو، والدرايفرات الخاصة بها",
-    "order": 4,
-    "image": "/images/categories/motors.jpg"
+    "order": 4
   },
   {
     "id": "wifi-bluetooth",
@@ -41,8 +37,7 @@
     "nameEn": "Wireless Modules",
     "icon": "wifi",
     "description": "وحدات WiFi، Bluetooth، LoRa، و GSM/GPRS للاتصال عن بعد",
-    "order": 5,
-    "image": "/images/categories/wireless.jpg"
+    "order": 5
   },
   {
     "id": "cables-accessories",
@@ -50,8 +45,7 @@
     "nameEn": "Cables & Accessories",
     "icon": "cable",
     "description": "كابلات USB، Jumper wires، Breadboards، وأدوات التجميع",
-    "order": 6,
-    "image": "/images/categories/accessories.jpg"
+    "order": 6
   },
   {
     "id": "power-supply",
@@ -59,8 +53,7 @@
     "nameEn": "Power Supply",
     "icon": "battery",
     "description": "بطاريات، منظمات جهد، شواحن، ووحدات طاقة شمسية",
-    "order": 7,
-    "image": "/images/categories/power.jpg"
+    "order": 7
   },
   {
     "id": "displays-screens",
@@ -68,7 +61,6 @@
     "nameEn": "Advanced Displays",
     "icon": "tv",
     "description": "شاشات TFT، Nextion، E-Ink، وشاشات لمس ملونة",
-    "order": 8,
-    "image": "/images/categories/displays.jpg"
+    "order": 8
   }
 ]

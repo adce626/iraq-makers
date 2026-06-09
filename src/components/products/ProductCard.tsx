@@ -3,6 +3,7 @@ import { Product } from '@/types';
 import { formatCurrency } from '@/lib/utils';
 import { Badge } from '@/components/ui/Badge';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
+import { ImageWithFallback } from '@/components/ui/ImageWithFallback';
 
 interface ProductCardProps {
   product: Product;
@@ -12,15 +13,25 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="group bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300">
       <Link href={`/products/${product.slug}`} className="block">
-        <div className="relative aspect-[4/3] bg-gray-800 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent z-10" />
-          <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-            <svg className="w-16 h-16 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-          </div>
+        <div className="relative bg-gray-900 flex items-center justify-center px-2 py-4 h-56 sm:h-64">
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-transparent to-transparent z-10" />
+          {product.images[0] ? (
+            <ImageWithFallback
+              src={product.images[0]}
+              alt={product.name}
+              className="max-w-full max-h-full object-contain"
+              containerClassName="w-full h-full flex items-center justify-center"
+              iconSize="w-16 h-16"
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-gray-900">
+              <svg className="w-16 h-16 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+          )}
           {product.featured && (
-            <div className="absolute top-3 right-3 z-20">
+            <div className="absolute top-3 end-3 z-20">
               <Badge variant="success">مميز</Badge>
             </div>
           )}

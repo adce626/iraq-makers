@@ -1,16 +1,160 @@
 [
   {
+    "id": "alfa-awus036h",
+    "slug": "alfa-awus036h",
+    "name": "مستقبل الواي فاي الأسطوري بعيد المدى Alfa AWUS036H الأصلي",
+    "nameEn": "Alfa AWUS036H Long Range WiFi Adapter",
+    "category": "wifi-bluetooth",
+    "price": 75000,
+    "currency": "IQD",
+    "shortDesc": "جهاز Alfa AWUS036H الأصلي - صناعة تايوان - مدى استقبال خارق مع مضخم إشارة قوي لاختراق الجدران",
+    "description": "لكل من يعاني من ضعف شبكة الواي فاي، هذا الجهاز هو الحل المثالي والنهائي لالتقاط أضعف الإشارات وتوصيل الإنترنت لأبعد مسافة ممكنة. إذا كان المودم بعيداً عن غرفتك أو تفصل بينك وبينه جدران سميكة، فهذا الجهاز مصمم خصيصاً ليحل لك هذه المشكلة بفضل قدرته العالية على اختراق الحواجز.\n\nأهم مميزات الجهاز:\n• صناعة تايوانية أصلية - يحمل ملصق الهولوغرام الفضي اللامع لضمان الجودة والأصالة\n• مدى استقبال خارق - مضخم إشارة داخلي قوي جداً لجلب الشبكات البعيدة\n• الأداء الاحترافي - يعتمد عليه مهندسو الشبكات لفحص استقرار الإشارات\n• اتصال ثابت ومستقر - تصفح ومشاهدة بث مباشر دون انقطاع",
+    "images": [
+      "/images/products/image_bb4053e6.png",
+      "/images/products/704827565_2843938789291368_6581910224596622374_n.jpg",
+      "/images/products/702857688_2843938312624749_7842772030197819374_n.jpg",
+      "/images/products/704869336_2843938202624760_3470112135051762369_n.jpg",
+      "/images/products/705421320_2843938672624713_4450479980122388769_n.jpg"
+    ],
+    "specs": {
+      "الموديل": "AWUS036H",
+      "بلد المنشأ": "تايوان (Made in Taiwan)",
+      "النوع": "WiFi Adapter USB",
+      "التردد": "2.4 GHz (802.11 b/g/n)",
+      "مضخم إشارة": "مدمج بقوة عالية",
+      "الهوائي": "5 dBi قابل للفك والتبديل",
+      "نظام التشغيل": "Windows / Linux / Mac",
+      "الحالة": "نظيف وممتاز وجاهز للاستخدام"
+    },
+    "codeExamples": [],
+    "faq": [
+      {"q": "هل الجهاز أصلي؟", "a": "نعم، الجهاز أصلي 100% صناعة تايوان مع ملصق هولوغرام فضي للتحقق من الأصالة."},
+      {"q": "هل يعمل على Windows 10/11؟", "a": "نعم، يدعم جميع أنظمة Windows و Linux و Mac."},
+      {"q": "كم مدى الاستقبال؟", "a": "يختلف حسب البيئة، لكنه يستقبل إشارات من مسافات بعيدة جداً تتجاوز 500 متر في الأماكن المفتوحة."},
+      {"q": "هل يحتاج إلى برامج تشغيل؟", "a": "نعم، يأتي مع CD يحتوي على برامج التشغيل، أو يمكن تحميلها من موقع Alfa الرسمي."}
+    ],
+    "tags": ["bestseller", "alfa", "wifi", "long-range", "adapter", "أصلي"],
+    "inStock": true,
+    "featured": true,
+    "createdAt": "2026-06-08"
+  },
+  {
+    "id": "m5stickc-plus2",
+    "slug": "m5stickc-plus2",
+    "name": "M5StickC PLUS2 - لوحة تطوير ESP32 بحجم صغير",
+    "nameEn": "M5StickC PLUS2 - Mini ESP32 Development Board",
+    "category": "arduino-boards",
+    "price": 35000,
+    "currency": "IQD",
+    "shortDesc": "القوة الكبيرة في حجم صغير جداً - لوحة ESP32 مع شاشة ملونة، بطارية، ومستشعرات ذكية",
+    "description": "تعرّف على M5StickC PLUS2! القوة الكبيرة في حجم صغير جداً. هذه اللوحة هي الحل الأسهل والأسرع لبناء مشاريع الذكاء الاصطناعي وإنترنت الأشياء (IoT). تأتي القطعة مع شاشة ملونة واضحة وأزرار مدمجة. كما تحتوي على بطارية داخلية ومستشعرات ذكية لتنفيذ أفكارك فوراً.\n\n✨ نقاط القوة والمميزات الأساسية:\n• قوة معالجة خارقة: تعمل بشريحة ESP32-PICO-V3-02 القوية\n• اتصال لاسلكي متكامل: تدعم شبكات الواي فاي (Wi-Fi) والبلوتوث\n• شاشة ملونة مدمجة: شاشة LCD بحجم 1.14 بوصة لعرض البيانات والرسومات\n• طاقة محمولة: تحتوي على بطارية مدمجة قابلة للشحن سعة 200 مللي أمبير\n• مستشعرات ذكية: تضم ساعة رقمية (RTC) ومستشعر حركة وميكروفون وجرس تنبيه\n• برمجة سهلة: تدعم Arduino و MicroPython و UIFlow\n• سهولة التوسيع: متوافقة مع ملحقات M5Stack\n\n🎯 الاستخدامات الشائعة:\n• التحكم في المنازل الذكية - تشغيل الإضاءة والأجهزة عن بعد\n• مشاريع إنترنت الأشياء - جمع بيانات الطقس والحرارة\n• الأجهزة القابلة للارتداء - ساعات ذكية وعدادات خطوات\n• التعليم الأكاديمي - أداة مثالية لطلاب الهندسة والبرمجة\n\n📦 محتويات العلبة:\n• وحدة التحكم الذكية M5StickC PLUS2",
+    "images": [
+      "/images/products/703914633_2842425312776049_6442393147106018292_n.jpg",
+      "/images/products/703335580_2842425542776026_7108418634600394394_n.jpg",
+      "/images/products/702930155_2842425339442713_4841241715058731280_n.jpg",
+      "/images/products/702569903_2842425539442693_9217986695474921192_n.jpg"
+    ],
+    "specs": {
+      "المعالج": "ESP32-PICO-V3-02",
+      "الشاشة": "1.14 بوصة LCD ملونة (135×240)",
+      "WiFi": "802.11 b/g/n",
+      "Bluetooth": "BLE 4.2",
+      "البطارية": "200 مللي أمبير مدمجة",
+      "الذاكرة (Flash)": "4 MB",
+      "PSRAM": "2 MB",
+      "المستشعرات": "RTC + MPU6886 + ميكروفون + جرس",
+      "الأزرار": "زران مدمجان",
+      "نظام البرمجة": "Arduino IDE / MicroPython / UIFlow",
+      "منفذ USB": "USB Type-C",
+      "الأبعاد": "48.2 × 25.5 × 13.7 مم"
+    },
+    "codeExamples": [
+      {
+        "title": "Arduino - تشغيل الشاشة وعرض نص",
+        "lang": "cpp",
+        "description": "عرض نص على شاشة M5StickC PLUS2",
+        "code": "#include <M5StickCPlus2.h>\n\nvoid setup() {\n  M5.begin();\n  M5.Lcd.setRotation(3);\n  M5.Lcd.fillScreen(BLACK);\n  M5.Lcd.setTextColor(WHITE);\n  M5.Lcd.setTextSize(2);\n  M5.Lcd.setCursor(30, 60);\n  M5.Lcd.println(\"Arduino Iraq\");\n}\n\nvoid loop() {\n  M5.update();\n}"
+      },
+      {
+        "title": "UIFlow - واجهة برمجة بصرية",
+        "lang": "python",
+        "description": "برمجة M5StickC PLUS2 عبر UIFlow بدون كود",
+        "code": "from m5stack import *\nfrom m5ui import *\nimport wifiCfg\n\nwifiCfg.doConnect('SSID', 'PASSWORD')\n\nlabel = M5TextBox(10, 60, 'Hello Iraq!', lcd.FONT_Default, 0xFFFFFF)\n\nwhile True:\n  wait_ms(1000)"
+      }
+    ],
+    "faq": [
+      {"q": "هل تدعم Arduino IDE؟", "a": "نعم، يمكن برمجتها بسهولة عبر Arduino IDE بعد تثبيت إضافة ESP32 ومكتبة M5StickCPlus2."},
+      {"q": "ما لغة البرمجة المتاحة؟", "a": "تدعم Arduino (C++)، MicroPython، و UIFlow الذي يسمح بالبرمجة الرسومية."},
+      {"q": "كم تدوم البطارية؟", "a": "البطارية سعة 200 مللي أمبير تدوم حوالي 2-3 ساعات حسب الاستخدام."},
+      {"q": "هل تأتي مع كابل USB؟", "a": "نعم، تأتي مع كابل USB Type-C للشحن والبرمجة."}
+    ],
+    "tags": ["m5stick", "esp32", "iot", "portable", "display"],
+    "inStock": true,
+    "featured": true,
+    "createdAt": "2026-06-08"
+  },
+  {
+    "id": "m5stack-motor-combo",
+    "slug": "m5stack-motor-combo",
+    "name": "طقم التحكم الذكي بالمحركات - M5StickC + L298N + BTS7960",
+    "nameEn": "Smart Motor Control Kit - M5StickC + L298N + BTS7960",
+    "category": "arduino-boards",
+    "price": 85000,
+    "currency": "IQD",
+    "shortDesc": "متوفر الآن وبأعلى جودة - المزيج المثالي للتحكم الذكي بالمحركات لبناء مشاريع التخرج، الروبوتات، والتحكم عن بعد",
+    "description": "متوفر الآن وبأعلى جودة، المزيج المثالي للتحكم الذكي بالمحركات لبناء مشاريع التخرج، الروبوتات، والتحكم الذكي عن بُعد:\n\n🧠 1. لوحة التطوير الذكية M5StickC PLUS2 (من منظومة M5Stack)\nالكمبيوتر المصغر الأقوى والأصغر لحساباتك الذكية!\n• شريحة ESP32 الخارقة: مزودة بـ Wi-Fi وبلوتوث للتحكم عن بُعد ومن خلال الهاتف\n• شاشة ملونة ومستشعرات مدمجة: لعرض السرعة، البيانات، والتحكم المباشر عبر الأزرار\n• برمجة مرنة: تدعم Arduino، MicroPython، والبرمجة الرسومية UIFlow\n\n⚙️ 2. أقوى مشغلات محركات التيار المستمر (DC Motor Drivers)\nلتحويل إشارات اللوحة الذكية إلى قوة حركة حقيقية:\n• Drive L298N الكلاسيكي: الخيار المثالي والموثوق للتحكم بمحركين وتحديد اتجاه السرعة\n• Drive BTS7960 العملاق: المصمم للمشاريع الكبيرة والروبوتات الثقيلة، يتحمل تياراً عالياً جداً (حتى 43 أمبير) مع حماية متكاملة\n\n⚡ كل ما تحتاجه لمشاريع البرمجة والتحكم الآلي بات بين يديك!",
+    "images": [
+      "/images/products/1.avif",
+      "/images/products/2.avif",
+      "/images/products/3.avif",
+      "/images/products/4.avif",
+      "/images/products/5.avif"
+    ],
+    "specs": {
+      "المعالج (M5StickC)": "ESP32-PICO-V3-02",
+      "الشاشة": "1.14 بوصة LCD ملونة",
+      "WiFi / Bluetooth": "نعم",
+      "درايفر L298N": "يتحكم بمحركين DC (2A لكل قناة)",
+      "درايفر BTS7960": "43 أمبير - للمحركات الثقيلة",
+      "البطارية": "200 مللي أمبير مدمجة",
+      "البرمجة": "Arduino / MicroPython / UIFlow",
+      "الاستخدامات": "مشاريع تخرج، روبوتات، تحكم ذكي"
+    },
+    "codeExamples": [
+      {
+        "title": "Arduino - تحكم بمحرك DC عبر M5StickC",
+        "lang": "cpp",
+        "description": "تشغيل محرك DC باستخدام M5StickC ودرايفر L298N",
+        "code": "#include <M5StickCPlus2.h>\n\n#define IN1 26\n#define IN2 0\n#define ENA 2\n\nvoid setup() {\n  M5.begin();\n  pinMode(IN1, OUTPUT);\n  pinMode(IN2, OUTPUT);\n  pinMode(ENA, OUTPUT);\n  \n  M5.Lcd.setRotation(3);\n  M5.Lcd.fillScreen(BLACK);\n  M5.Lcd.setTextColor(WHITE);\n  M5.Lcd.println(\"Motor Control Ready\");\n}\n\nvoid loop() {\n  M5.update();\n  \n  if (M5.BtnA.wasPressed()) {\n    digitalWrite(IN1, HIGH);\n    digitalWrite(IN2, LOW);\n    analogWrite(ENA, 200);\n    M5.Lcd.println(\"Motor Forward\");\n  }\n  \n  if (M5.BtnB.wasPressed()) {\n    digitalWrite(IN1, LOW);\n    digitalWrite(IN2, HIGH);\n    analogWrite(ENA, 200);\n    M5.Lcd.println(\"Motor Reverse\");\n  }\n}"
+      }
+    ],
+    "faq": [
+      {"q": "هل القطع أصلية؟", "a": "نعم، جميع القطع أصلية 100% مع ضمان."},
+      {"q": "هل يأتي مع كود برمجي جاهز؟", "a": "نعم، نوفر كود جاهز للتشغيل الفوري."},
+      {"q": "هل يمكن استخدام الطقم للمشاريع الجامعية؟", "a": "نعم، مثالي لمشاريع التخرج والروبوتات."}
+    ],
+    "tags": ["kit", "bundle", "m5stick", "motor", "robot", "project"],
+    "inStock": true,
+    "featured": false,
+    "createdAt": "2026-06-08"
+  },
+  {
     "id": "led-matrix-8x8-rgb",
     "slug": "led-matrix-8x8-rgb",
-    "name": "شاشة LED مصفوفة 8×8 RGB",
-    "nameEn": "8x8 RGB LED Matrix",
+    "name": "شاشة المصفوفة الذكية 8×8 RGB LED MATRIX",
+    "nameEn": "8x8 RGB LED Smart Matrix",
     "category": "led-displays",
     "price": 15000,
     "currency": "IQD",
-    "shortDesc": "شاشة LED ملونة 8×8 قابلة للبرمجة مع موديول MAX7219 - مثالية للمشاريع الإبداعية",
-    "description": "شاشة LED مصفوفة 8×8 RGB عالية الجودة مع موديول MAX7219. تدعم برمجة سهلة عبر Arduino و ESP32. يمكن استخدامها في الساعات الرقمية، لوحات الإعلانات، الألعاب البسيطة، وعرض النصوص والرسوم المتحركة. تأتي كاملة مع وصلات التوصيل.",
-    "images": ["/images/products/led-matrix-8x8-1.jpg", "/images/products/led-matrix-8x8-2.jpg", "/images/products/led-matrix-8x8-3.jpg"],
-    "videoUrl": "/videos/led-8x8-demo.mp4",
+    "shortDesc": "الخيار الأفضل والممتع لعرض الرسومات، الأشكال، والنصوص المتحركة بمليارات الألوان - متوافقة مع Arduino و ESP32",
+    "description": "متوفرة الآن لدينا: شاشة المصفوفة الذكية 8×8 RGB LED MATRIX 🚀\nالخيار الأفضل والممتع لعرض الرسومات، الأشكال، والنصوص المتحركة بمليارات الألوان!\n\n✨ ميزات الشاشة الأساسية:\n• توافق تام: تعمل بكفاءة عالية مع لوحات Arduino ولوحات ESP32 (مثل لوحة M5StickC PLUS2)\n• سهولة فائقة في البرمجة: مدعومة بمكتبات جاهزة تتيح لك التحكم بكل ومضة ولون بأسطر برمجية بسيطة\n• إضاءة RGB ساطعة: تمنحك تدرجات ألوان كاملة ومبهرة لعرض الإشعارات، الوجوه التعبيرية (Emojis)، والرموز\n• توفير في الأسلاك: تصميم ذكي يسهل ربطه وتوصيله بدون تعقيد\n\n🎯 أفكار ممتعة لتطبيقها مع الشاشة:\n• ابتكار ساعات رقمية أو عدادات ذكية متصلة بالإنترنت\n• عرض إشعارات الهاتف أو حالة الطقس عبر نظام إنترنت الأشياء (IoT)\n• تصميم ألعاب مصغرة تفاعلية (مثل لعبة الثعبان أو التتريس الكلاسيكية)",
+    "images": [
+      "/images/products/715790602_2858802754471638_2474862840464642765_n.jpg",
+      "/images/products/716290878_2858803021138278_1117978683917261384_n.jpg",
+      "/images/products/716330764_2858803161138264_4678731810934247555_n.jpg",
+      "/images/products/716591034_2858803094471604_5282261308423526407_n.jpg",
+      "/images/products/image_a1740f49.png"
+    ],
     "specs": {
       "النوع": "8×8 RGB Dot Matrix",
       "جهد التشغيل": "5V DC",
@@ -47,273 +191,108 @@
     "createdAt": "2026-01-15"
   },
   {
-    "id": "arduino-uno-r3",
-    "slug": "arduino-uno-r3",
-    "name": "لوحة Arduino Uno R3",
-    "nameEn": "Arduino Uno R3",
-    "category": "arduino-boards",
-    "price": 22000,
+    "id": "lcd-16x2-i2c",
+    "slug": "lcd-16x2-i2c",
+    "name": "شاشة LCD 16x2 مع وحدة I2C - الحل الأسهل لعرض البيانات",
+    "nameEn": "LCD 16x2 with I2C Module",
+    "category": "led-displays",
+    "price": 3000,
     "currency": "IQD",
-    "shortDesc": "لوحة Arduino Uno R3 أصلية - أفضل لوحة للمبتدئين والمشاريع التعليمية",
-    "description": "لوحة Arduino Uno R3 الأصلية من Arduino.cc. تعتمد على معالج ATmega328P، تحتوي على 14 منفذ رقمية و 6 منافذ تماثلية. مثالية للمبتدئين والمشاريع التعليمية والصناعية.",
-    "images": ["/images/products/arduino-uno-1.jpg", "/images/products/arduino-uno-2.jpg"],
+    "shortDesc": "شاشة LCD 16×2 مع وحدة I2C ملحومة مسبقاً - 4 أسلاك فقط، تدعم Arduino و ESP32 و Raspberry Pi",
+    "description": "هل سئمت من كثرة الأسلاك وتداخلها عند توصيل الشاشات؟ هذه القطعة هي الحل الذكي! شاشة تعرض لك سطرين من النصوص أو الأرقام (كل سطر يتسع لـ 16 حرفاً)، ومزودة بـ \"عقل صغير\" ملحوم خلفها يسمى وحدة I2C.\n\n✨ نقاط القوة والمميزات الأساسية:\n\n• **4 أسلاك فقط! (توفير دبابيس GPIO):** الشاشات العادية القديمة تستهلك حوالي 12 سلكاً من لوحة التحكم، مما يمنعك من توصيل مستشعرات أخرى. بفضل وحدة I2C، ستحتاج إلى 4 أسلاك فقط (سلكين للطاقة وسلكين للبيانات).\n• **جاهزة فوراً (لا تحتاج لحام):** تأتي وحدة I2C ملحومة مسبقاً من المصنع بدقة عالية، مما يعني أن المشتري لن يحتاج لكاوية لحام، فقط قم بالتوصيل وابدأ البرمجة فوراً.\n• **شاشة واضحة وقابلة للتعديل:** تعرض الحروف والأرقام بشكل نقي جداً، وتحتوي من الخلف على مقاومة متغيرة صغيرة تمكنك من ضبط درجة وضوح الحروف (Contrast) لتناسب الإضاءة المحيطة.\n• **توافق كامل مع أشهر اللوحات:** تعمل بسلاسة فائقة مع Arduino Uno و Raspberry Pi ولوحات ESP32 المتطورة.\n\n🎯 الاستخدامات الشائعة:\n\n• عرض درجة الحرارة والرطوبة في محطات الطقس الصغيرة.\n• عرض كلمة \"مسموح بالدخول\" أو \"خطأ\" في أنظمة القفل الذكي.\n• عمل عدّاد رقمي أو ساعة منبه منزلية.",
+    "images": [
+      "/images/products/6134iqsanrL._AC_.jpg",
+      "/images/products/51-0ROIy89L._AC_.jpg",
+      "/images/products/61Xzmn9UJ4L._AC_.jpg",
+      "/images/products/71WZYVu9FIL._AC_SL1001_.jpg",
+      "/images/products/61Qfirs3g3L._AC_SL1001_.jpg"
+    ],
     "specs": {
-      "المعالج": "ATmega328P",
-      "جهد التشغيل": "5V",
-      "جهد المدخل": "7-12V",
-      "المنافذ الرقمية": "14 (6 PWM)",
-      "المنافذ التماثلية": "6",
-      "الذاكرة (Flash)": "32 KB",
-      "SRAM": "2 KB",
-      "EEPROM": "1 KB",
-      "سرعة الساعة": "16 MHz",
-      "الوزن": "25 جرام"
-    },
-    "codeExamples": [
-      {
-        "title": "Blink - أول برنامج مع Arduino",
-        "lang": "cpp",
-        "description": "تشغيل وإطفاء LED مدمج كمثال أساسي",
-        "code": "void setup() {\n  pinMode(LED_BUILTIN, OUTPUT);\n}\n\nvoid loop() {\n  digitalWrite(LED_BUILTIN, HIGH);\n  delay(1000);\n  digitalWrite(LED_BUILTIN, LOW);\n  delay(1000);\n}"
-      }
-    ],
-    "faq": [
-      {"q": "هل اللوحة أصلية أم نسخة؟", "a": "اللوحة أصلية 100% من Arduino.cc مع ضمان."},
-      {"q": "هل تأتي مع كابل USB؟", "a": "نعم، تأتي مع كابل USB نوع A إلى B للبرمجة."},
-      {"q": "ما البرنامج المستخدم للبرمجة؟", "a": "Arduino IDE - يمكن تحميله مجاناً من arduino.cc."}
-    ],
-    "tags": ["arduino", "uno", "board", "original"],
-    "inStock": true,
-    "featured": true,
-    "createdAt": "2026-01-10"
-  },
-  {
-    "id": "esp32-devkit-v4",
-    "slug": "esp32-devkit-v4",
-    "name": "لوحة ESP32 DevKit V4 WiFi + Bluetooth",
-    "nameEn": "ESP32 DevKit V4",
-    "category": "arduino-boards",
-    "price": 18000,
-    "currency": "IQD",
-    "shortDesc": "لوحة ESP32 مع WiFi و Bluetooth مدمجة - مثالية لمشاريع إنترنت الأشياء",
-    "description": "لوحة ESP32 DevKit V4 مع معالج ثنائي النواة، WiFi مدمج، و Bluetooth 4.2. تدعم برمجة Arduino IDE، MicroPython، و ESP-IDF. مثالية لمشاريع إنترنت الأشياء، التحكم عن بعد، وأتمتة المنزل.",
-    "images": ["/images/products/esp32-1.jpg", "/images/products/esp32-2.jpg"],
-    "specs": {
-      "المعالج": "ESP32 Dual-Core Xtensa LX6",
-      "السرعة": "240 MHz",
-      "الذاكرة (Flash)": "4 MB",
-      "SRAM": "520 KB",
-      "WiFi": "802.11 b/g/n",
-      "Bluetooth": "BLE 4.2",
-      "المنافذ الرقمية": "25 (PWM)",
-      "المنافذ التماثلية": "2 (12-bit)",
-      "جهد التشغيل": "3.3V (5V tolerant)",
-      "USB": "Micro USB"
-    },
-    "codeExamples": [
-      {
-        "title": "ESP32 - توصيل WiFi",
-        "lang": "cpp",
-        "description": "توصيل ESP32 بشبكة WiFi وعرض عنوان IP",
-        "code": "#include <WiFi.h>\n\nconst char* ssid = \"YOUR_SSID\";\nconst char* password = \"YOUR_PASSWORD\";\n\nvoid setup() {\n  Serial.begin(115200);\n  WiFi.begin(ssid, password);\n  \n  while (WiFi.status() != WL_CONNECTED) {\n    delay(500);\n    Serial.print(\".\");\n  }\n  \n  Serial.println(\"\\nWiFi Connected!\");\n  Serial.print(\"IP: \");\n  Serial.println(WiFi.localIP());\n}\n\nvoid loop() {}"
-      }
-    ],
-    "faq": [
-      {"q": "هل تدعم Arduino IDE؟", "a": "نعم، يمكن برمجتها بسهولة عبر Arduino IDE بعد تثبيت إضافة ESP32."},
-      {"q": "هل يمكن استخدامها مع MicroPython؟", "a": "نعم، تدعم MicroPython ويمكن تحميله عبر esptool.py."}
-    ],
-    "tags": ["esp32", "wifi", "bluetooth", "iot"],
-    "inStock": true,
-    "featured": true,
-    "createdAt": "2026-01-20"
-  },
-  {
-    "id": "dht22-sensor",
-    "slug": "dht22-sensor",
-    "name": "حساس درجة الحرارة والرطوبة DHT22",
-    "nameEn": "DHT22 Temperature & Humidity Sensor",
-    "category": "sensors",
-    "price": 7000,
-    "currency": "IQD",
-    "shortDesc": "حساس دقيق لقياس درجة الحرارة والرطوبة - دقة ±0.5°C",
-    "description": "حساس DHT22 عالي الدقة لقياس درجة الحرارة والرطوبة. دقة قياس ±0.5°C لدرجة الحرارة و ±2% للرطوبة. مناسب للمشاريع المنزلية، الزراعية، والصناعية.",
-    "images": ["/images/products/dht22-1.jpg", "/images/products/dht22-2.jpg"],
-    "specs": {
-      "النوع": "DHT22 (AM2302)",
-      "مدى قياس الحرارة": "-40°C to 80°C",
-      "دقة الحرارة": "±0.5°C",
-      "مدى قياس الرطوبة": "0-100% RH",
-      "دقة الرطوبة": "±2%",
-      "جهد التشغيل": "3.3V - 5V",
-      "التردد": "أخذ عينة كل 2 ثانية",
-      "الواجهة": "Digital (Single Bus)"
-    },
-    "codeExamples": [
-      {
-        "title": "Arduino - قراءة DHT22",
-        "lang": "cpp",
-        "description": "قراءة درجة الحرارة والرطوبة وعرضها على Serial Monitor",
-        "code": "#include <DHT.h>\n\n#define DHTPIN 2\n#define DHTTYPE DHT22\n\nDHT dht(DHTPIN, DHTTYPE);\n\nvoid setup() {\n  Serial.begin(9600);\n  dht.begin();\n}\n\nvoid loop() {\n  float h = dht.readHumidity();\n  float t = dht.readTemperature();\n  \n  if (isnan(h) || isnan(t)) {\n    Serial.println(\"فشل في القراءة!\");\n    return;\n  }\n  \n  Serial.print(\"الرطوبة: \");\n  Serial.print(h);\n  Serial.print(\"%  درجة الحرارة: \");\n  Serial.print(t);\n  Serial.println(\"°C\");\n  \n  delay(2000);\n}"
-      }
-    ],
-    "faq": [
-      {"q": "الفرق بين DHT11 و DHT22؟", "a": "DHT22 أدق وأغلى، DHT11 أقل دقة وأرخص. DHT22 يقيس حتى 80°C بينما DHT11 حتى 50°C."},
-      {"q": "هل يحتاج مقاومة Pull-up؟", "a": "نعم، يفضل استخدام مقاومة 10KΩ بين VCC و Data."}
-    ],
-    "tags": ["sensor", "temperature", "humidity", "dht22"],
-    "inStock": true,
-    "featured": false,
-    "createdAt": "2026-02-01"
-  },
-  {
-    "id": "servo-motor-sg90",
-    "slug": "servo-motor-sg90",
-    "name": "محرك سيرفو SG90 9g",
-    "nameEn": "SG90 Servo Motor 9g",
-    "category": "motors-drivers",
-    "price": 5000,
-    "currency": "IQD",
-    "shortDesc": "محرك سيرفو صغير 180° - مناسب للروبوتات والمشاريع الصغيرة",
-    "description": "محرك سيرفو SG90 صغير الحجم (9 جرام) مع زاوية دوران 180°. مثالي للروبوتات، الأذرع الميكانيكية، ومشاريع التحكم عن بعد. يأتي مع مجموعة من الأذرع البلاستيكية.",
-    "images": ["/images/products/servo-sg90-1.jpg", "/images/products/servo-sg90-2.jpg"],
-    "specs": {
-      "النوع": "Micro Servo SG90",
-      "زاوية الدوران": "0-180°",
-      "جهد التشغيل": "4.8V - 6V",
-      "العزم": "1.8 kg·cm (at 4.8V)",
-      "السرعة": "0.12 sec/60° (at 4.8V)",
-      "الوزن": "9 جرام",
-      "الأبعاد": "23×12.2×29 مم",
-      "المادة": "بلاستيك + أسنان معدنية"
-    },
-    "codeExamples": [
-      {
-        "title": "Arduino - تحريك سيرفو",
-        "lang": "cpp",
-        "description": "تحريك السيرفو 180° ذهاباً وإياباً",
-        "code": "#include <Servo.h>\n\nServo myservo;\nint pos = 0;\n\nvoid setup() {\n  myservo.attach(9);\n}\n\nvoid loop() {\n  for (pos = 0; pos <= 180; pos += 1) {\n    myservo.write(pos);\n    delay(15);\n  }\n  for (pos = 180; pos >= 0; pos -= 1) {\n    myservo.write(pos);\n    delay(15);\n  }\n}"
-      }
-    ],
-    "faq": [
-      {"q": "هل يمكن استخدامه مع ESP32؟", "a": "نعم، لكن يفضل استخدام محول مستوى 5V لأن ESP32 يعمل ب 3.3V."},
-      {"q": "كم عدد السيرفوهات التي يمكن تشغيلها معاً؟", "a": "حسب مصدر الطاقة، كل سيرفو يستهلك حوالي 500mA عند التحميل."}
-    ],
-    "tags": ["servo", "motor", "robot", "micro"],
-    "inStock": true,
-    "featured": false,
-    "createdAt": "2026-02-05"
-  },
-  {
-    "id": "hc05-bluetooth",
-    "slug": "hc05-bluetooth",
-    "name": "موديول Bluetooth HC-05",
-    "nameEn": "HC-05 Bluetooth Module",
-    "category": "wifi-bluetooth",
-    "price": 8000,
-    "currency": "IQD",
-    "shortDesc": "موديول Bluetooth للاتصال بين المتحكمات والهواتف الذكية",
-    "description": "موديول Bluetooth HC-05 يدعم وضعين (Master/Slave) للاتصال بين المتحكمات Microcontroller والهواتف الذكية. مدى يصل إلى 10 أمتار. سهل البرمجة عبر الأوامر AT.",
-    "images": ["/images/products/hc05-1.jpg", "/images/products/hc05-2.jpg"],
-    "specs": {
-      "النوع": "HC-05 Bluetooth 2.0",
-      "المدى": "10 متر",
-      "جهد التشغيل": "3.6V - 6V",
-      "الوضع": "Master/Slave",
-      "الواجهة": "UART (Serial)",
-      "معدل الباود": "9600-115200 bps",
-      "التيار": "30-40mA",
-      "الأبعاد": "27×13×2 مم"
-    },
-    "codeExamples": [
-      {
-        "title": "Arduino - التحكم عبر Bluetooth",
-        "lang": "cpp",
-        "description": "تشغيل LED عن بعد عبر تطبيق Serial Bluetooth Terminal",
-        "code": "char data = 0;\n\nvoid setup() {\n  Serial.begin(9600);\n  pinMode(13, OUTPUT);\n}\n\nvoid loop() {\n  if (Serial.available() > 0) {\n    data = Serial.read();\n    \n    if (data == '1') {\n      digitalWrite(13, HIGH);\n      Serial.println(\"LED ON\");\n    }\n    else if (data == '0') {\n      digitalWrite(13, LOW);\n      Serial.println(\"LED OFF\");\n    }\n  }\n}"
-      }
-    ],
-    "faq": [
-      {"q": "الفرق بين HC-05 و HC-06؟", "a": "HC-05 يدعم وضعي Master و Slave، بينما HC-06 يدعم Slave فقط."},
-      {"q": "هل يحتاج محول مستوى؟", "a": "نعم، عند استخدامه مع Arduino (5V) يفضل استخدام مقسم جهد ل TX."}
-    ],
-    "tags": ["bluetooth", "wireless", "hc05", "communication"],
-    "inStock": true,
-    "featured": false,
-    "createdAt": "2026-02-10"
-  },
-  {
-    "id": "l298n-motor-driver",
-    "slug": "l298n-motor-driver",
-    "name": "درايفر محركات L298N",
-    "nameEn": "L298N Motor Driver",
-    "category": "motors-drivers",
-    "price": 10000,
-    "currency": "IQD",
-    "shortDesc": "درايفر للتحكم بمحركات DC وسيرفو - يتحكم بمحركين بقدرة 2A",
-    "description": "موديول L298N للتحكم بمحركات DC (2 محرك) أو محرك خطوة واحد. يمكن التحكم بالسرعة والاتجاه. مناسب للسيارات الروبوتية والمشاريع المتحركة.",
-    "images": ["/images/products/l298n-1.jpg", "/images/products/l298n-2.jpg"],
-    "specs": {
-      "النوع": "L298N Dual H-Bridge",
-      "جهد التشغيل": "5V - 35V",
-      "التيار لكل قناة": "2A",
-      "التيار الأقصى": "2.5A (مع مشتت حراري)",
-      "التحكم": "PWM",
-      "الأبعاد": "43×43×27 مم",
-      "الوزن": "30 جرام"
-    },
-    "codeExamples": [
-      {
-        "title": "Arduino - تحكم بمحركين DC",
-        "lang": "cpp",
-        "description": "تحكم بسيارة روبوتية (اتجاه وسرعة)",
-        "code": "// Motor A\nint enA = 9;\nint in1 = 8;\nint in2 = 7;\n// Motor B\nint enB = 3;\nint in3 = 5;\nint in4 = 4;\n\nvoid setup() {\n  pinMode(enA, OUTPUT);\n  pinMode(in1, OUTPUT);\n  pinMode(in2, OUTPUT);\n  pinMode(enB, OUTPUT);\n  pinMode(in3, OUTPUT);\n  pinMode(in4, OUTPUT);\n}\n\nvoid loop() {\n  // Forward\n  digitalWrite(in1, HIGH);\n  digitalWrite(in2, LOW);\n  digitalWrite(in3, HIGH);\n  digitalWrite(in4, LOW);\n  analogWrite(enA, 200);\n  analogWrite(enB, 200);\n  delay(2000);\n  \n  // Stop\n  digitalWrite(in1, LOW);\n  digitalWrite(in2, LOW);\n  digitalWrite(in3, LOW);\n  digitalWrite(in4, LOW);\n  delay(1000);\n  \n  // Backward\n  digitalWrite(in1, LOW);\n  digitalWrite(in2, HIGH);\n  digitalWrite(in3, LOW);\n  digitalWrite(in4, HIGH);\n  analogWrite(enA, 200);\n  analogWrite(enB, 200);\n  delay(2000);\n}"
-      }
-    ],
-    "faq": [
-      {"q": "هل يمكن توصيل محرك خطوة (Stepper)؟", "a": "نعم، يمكن تشغيل محرك خطوة ثنائي القطب بقدرة 2A."},
-      {"q": "هل يحتاج مشتت حراري؟", "a": "نعم، للتيارات العالية (أكثر من 1A) يفضل تركيب مشتت حراري."}
-    ],
-    "tags": ["motor", "driver", "l298n", "robot"],
-    "inStock": true,
-    "featured": false,
-    "createdAt": "2026-02-15"
-  },
-  {
-    "id": "hc-sr04-ultrasonic",
-    "slug": "hc-sr04-ultrasonic",
-    "name": "حساس المسافة بالموجات فوق الصوتية HC-SR04",
-    "nameEn": "HC-SR04 Ultrasonic Sensor",
-    "category": "sensors",
-    "price": 4000,
-    "currency": "IQD",
-    "shortDesc": "حساس قياس المسافة 2-400 سم - دقيق وسهل الاستخدام",
-    "description": "حساس HC-SR04 لقياس المسافة باستخدام الموجات فوق الصوتية. مدى 2cm إلى 400cm، دقة عالية. يستخدم في مشاريع تجنب العوائق، قياس الخزانات، الروبوتات الذكية.",
-    "images": ["/images/products/hcsr04-1.jpg", "/images/products/hcsr04-2.jpg"],
-    "specs": {
-      "النوع": "HC-SR04 Ultrasonic",
+      "النوع": "LCD 16×2 مع I2C",
+      "عدد الأسطر": "2 سطر",
+      "عدد الأحرف": "16 حرفاً لكل سطر",
+      "اللون": "أزرق مع كتابة بيضاء (أو أخضر)",
       "جهد التشغيل": "5V DC",
-      "التيار": "15mA",
-      "مدى القياس": "2cm - 400cm",
-      "الدقة": "3mm",
-      "زاوية القياس": "15°",
-      "التردد": "40 kHz",
-      "الأبعاد": "45×20×15 مم"
+      "واجهة الاتصال": "I2C (عنوان افتراضي 0x27)",
+      "عدد الأسلاك": "4 (VCC, GND, SDA, SCL)",
+      "مقاومة متغيرة": "نعم (لضبط التباين)",
+      "دعم": "Arduino / ESP32 / Raspberry Pi"
     },
     "codeExamples": [
       {
-        "title": "Arduino - قياس المسافة",
+        "title": "Arduino - عرض نص على LCD",
         "lang": "cpp",
-        "description": "قياس المسافة وعرضها على Serial Monitor",
-        "code": "#define TRIG_PIN 9\n#define ECHO_PIN 10\n\nvoid setup() {\n  Serial.begin(9600);\n  pinMode(TRIG_PIN, OUTPUT);\n  pinMode(ECHO_PIN, INPUT);\n}\n\nvoid loop() {\n  digitalWrite(TRIG_PIN, LOW);\n  delayMicroseconds(2);\n  digitalWrite(TRIG_PIN, HIGH);\n  delayMicroseconds(10);\n  digitalWrite(TRIG_PIN, LOW);\n  \n  long duration = pulseIn(ECHO_PIN, HIGH);\n  float distance = duration * 0.034 / 2;\n  \n  Serial.print(\"المسافة: \");\n  Serial.print(distance);\n  Serial.println(\" cm\");\n  \n  delay(500);\n}"
+        "description": "كود بسيط لعرض نص على الشاشة باستخدام مكتبة LiquidCrystal_I2C",
+        "code": "#include <LiquidCrystal_I2C.h>\n\nLiquidCrystal_I2C lcd(0x27, 16, 2);\n\nvoid setup() {\n  lcd.init();\n  lcd.backlight();\n  lcd.setCursor(0, 0);\n  lcd.print(\"Arduino Iraq\");\n  lcd.setCursor(0, 1);\n  lcd.print(\"Hello World!\");\n}\n\nvoid loop() {}"
+      },
+      {
+        "title": "ESP32 - عرض درجة حرارة",
+        "lang": "cpp",
+        "description": "عرض درجة الحرارة والرطوبة من حساس DHT11 على LCD",
+        "code": "#include <LiquidCrystal_I2C.h>\n#include <DHT.h>\n\n#define DHTPIN 4\n#define DHTTYPE DHT11\n\nLiquidCrystal_I2C lcd(0x27, 16, 2);\nDHT dht(DHTPIN, DHTTYPE);\n\nvoid setup() {\n  lcd.init();\n  lcd.backlight();\n  dht.begin();\n}\n\nvoid loop() {\n  float h = dht.readHumidity();\n  float t = dht.readTemperature();\n  \n  lcd.setCursor(0, 0);\n  lcd.print(\"Temp: \");\n  lcd.print(t);\n  lcd.print(\" C \");\n  \n  lcd.setCursor(0, 1);\n  lcd.print(\"Hum:  \");\n  lcd.print(h);\n  lcd.print(\" %  \");\n  \n  delay(2000);\n}"
       }
     ],
     "faq": [
-      {"q": "ما أقصى مسافة يمكن قياسها؟", "a": "400 سم في الظروف المثالية، لكن 300 سم عملية أكثر."},
-      {"q": "هل يتأثر بالضوضاء؟", "a": "نعم، الموجات فوق الصوتية قد تتأثر بالضوضاء الصوتية المحيطة."}
+      {"q": "هل تحتاج لحام؟", "a": "لا، وحدة I2C ملحومة مسبقاً من المصنع. فقط وصل 4 أسلاك وابدأ."},
+      {"q": "ما عنوان I2C الافتراضي؟", "a": "العنوان الافتراضي هو 0x27، ولكن يمكن تغييره عبر لحام نقاط اللحام (Solder Pads) على الوحدة."},
+      {"q": "هل تعمل مع Arduino Uno؟", "a": "نعم، تعمل بكفاءة عالية مع Arduino عبر المنفذين A4 (SDA) و A5 (SCL)."},
+      {"q": "هل تعمل مع ESP32؟", "a": "نعم، يمكن توصيل SDA و SCL بأي منفذين GPIO على ESP32."}
     ],
-    "tags": ["sensor", "ultrasonic", "distance", "hc-sr04"],
+    "tags": ["lcd", "i2c", "display", "16x2", "arduino", "esp32"],
     "inStock": true,
     "featured": false,
-    "createdAt": "2026-02-20"
+    "createdAt": "2026-06-09"
+  },
+  {
+    "id": "tft-35-mega-shield",
+    "slug": "tft-35-mega-shield",
+    "name": "شاشة TFT LCD مقاس 3.5 بوصة اللمسية - Shield لـ Arduino Mega",
+    "nameEn": "3.5 Inch TFT LCD Touch Shield for Arduino Mega",
+    "category": "displays-screens",
+    "price": 25000,
+    "currency": "IQD",
+    "shortDesc": "شاشة TFT ملونة 3.5 بوصة تعمل باللمس - تركب مباشرة كـ Shield على Arduino Mega - دقة 480×320 - مع منفذ SD Card",
+    "description": "هذه القطعة عبارة عن شاشة ملونة كبيرة الحجم (3.5 بوصة) تدعم اللمس، وتأتي بتصميم مخصص يركب مباشرة فوق لوحة Arduino Mega كغطاء (Shield). يمنح هذا التصميم المطورين القدرة على تصميم أزرار، وقوائم، ورسومات بيانية ملونة تتفاعل مع لمسة الإصبع.\n\n✨ نقاط القوة والمميزات الأساسية:\n\n• **تركيب مباشر (Shield):** تم تصميم دبابيس الشاشة (Pins) لتتطابق تماماً مع منافذ لوحة Arduino Mega 2560. هذا يعني صفر أسلاك! يقوم المستخدم بتركيب الشاشة فوق اللوحة مباشرة كطبقة ثانية وتبدأ العمل فوراً.\n• **دقة عرض ممتازة (480×320):** توفر دقة عالية بالنسبة لحجمها، مما يجعل الألوان زاهية، والنصوص واضحة جداً، والرسوم تفصيلية ومريحة للعين.\n• **شاشة تفاعلية باللمس:** تتيح للمستخدمين الاستغناء التام عن الأزرار الخارجية؛ حيث يمكنهم الآن الضغط على الشاشة مباشرة لتشغيل المحركات، أو إدخال كلمات المرور، أو التنقل بين القوائم.\n• **منفذ بطاقة ذاكرة مدمج (SD Card Slot):** تحتوي الشاشة من الخلف على منفذ لبطاقة الذاكرة، وهو أمر ضروري جداً لتخزين الصور، والأيقونات، والخلفيات الملونة الكبيرة وعرضها على الشاشة دون استهلاك ذاكرة الأردوينو الصغيرة.\n\n🎯 الاستخدامات الشائعة:\n\n• لوحات التحكم المنزلية الذكية: للتحكم في الإضاءة، والتكييف، والأبواب بلمسة واحدة من شاشة مركزية مثبتة على الحائط.\n• أنظمة المراقبة والقياس: لعرض رسوم بيانية متحركة ومباشرة لدرجات الحرارة، أو مستوى الغازات.\n• أجهزة القفل والأمان الذكي: لتصميم لوحة مفاتيح رقمية (Keypad) باللمس لإدخال رمز السري وفتح الأقفال.\n• الآلات الحاسبة والألعاب المصغرة: لتصميم ألعاب تفاعلية بسيطة أو أدوات حسابية وهندسية.",
+    "images": [
+      "/images/products/w3qqq.avif",
+      "/images/products/ecddd.avif",
+      "/images/products/we2222.avif",
+      "/images/products/edeee.avif"
+    ],
+    "specs": {
+      "النوع": "TFT LCD Touch Shield",
+      "المقاس": "3.5 بوصة",
+      "الدقة": "480×320 بكسل",
+      "اللمس": "مقاومي (Resistive)",
+      "منفذ SD": "نعم (Micro SD Card Slot)",
+      "التوافق": "Arduino Mega 2560 (تركيب مباشر)",
+      "المكتبات": "MCUFRIEND / TFT_eSPI / Adafruit GFX",
+      "جهد التشغيل": "5V (من اللوحة الأم)",
+      "الألوان": "262K لون"
+    },
+    "codeExamples": [
+      {
+        "title": "Arduino Mega - عرض نص وشكل",
+        "lang": "cpp",
+        "description": "عرض دائرة زرقاء ونص على الشاشة",
+        "code": "#include <MCUFRIEND_kbv.h>\n\nMCUFRIEND_kbv tft;\n\nvoid setup() {\n  uint16_t ID = tft.readID();\n  tft.begin(ID);\n  tft.setRotation(1);\n  tft.fillScreen(TFT_BLACK);\n  \n  tft.fillCircle(160, 120, 80, TFT_BLUE);\n  \n  tft.setTextColor(TFT_WHITE, TFT_BLUE);\n  tft.setTextSize(3);\n  tft.setCursor(60, 110);\n  tft.println(\"Arduino\");\n  tft.setCursor(40, 140);\n  tft.println(\"Iraq\");\n}\n\nvoid loop() {}"
+      },
+      {
+        "title": "Arduino Mega - قراءة اللمس",
+        "lang": "cpp",
+        "description": "التفاعل مع اللمس ورسم نقطة حمراء عند لمس الشاشة",
+        "code": "#include <MCUFRIEND_kbv.h>\n#include <TouchScreen.h>\n\nMCUFRIEND_kbv tft;\nTouchScreen ts = TouchScreen(6, A1, A2, 7, 300);\n\nvoid setup() {\n  uint16_t ID = tft.readID();\n  tft.begin(ID);\n  tft.setRotation(1);\n  tft.fillScreen(TFT_WHITE);\n}\n\nvoid loop() {\n  TSPoint p = ts.getPoint();\n  \n  if (p.z > MINPRESSURE && p.z < MAXPRESSURE) {\n    int x = map(p.x, 150, 920, 0, 480);\n    int y = map(p.y, 120, 940, 0, 320);\n    tft.fillCircle(x, y, 5, TFT_RED);\n  }\n}"
+      }
+    ],
+    "faq": [
+      {"q": "هل تعمل مع Arduino Uno؟", "a": "هذا الموديل مصمم خصيصاً لـ Arduino Mega. للاستخدام مع Uno، يفضل استخدام شاشات shield مخصصة لـ Uno."},
+      {"q": "هل تحتاج مكتبات خاصة؟", "a": "نعم، تدعم مكتبات MCUFRIEND_kbv و TFT_eSPI و Adafruit GFX."},
+      {"q": "هل تأتي مع قلم لمس؟", "a": "نعم، تأتي مع قلم ستايلس (Stylus) للتفاعل مع الشاشة."},
+      {"q": "هل يمكن عرض الصور؟", "a": "نعم، عبر منفذ SD Card المدمج يمكن تخزين وعرض الصور BMP."}
+    ],
+    "tags": ["tft", "lcd", "touch", "shield", "mega", "arduino", "3.5inch", "display"],
+    "inStock": true,
+    "featured": false,
+    "createdAt": "2026-06-09"
   }
 ]

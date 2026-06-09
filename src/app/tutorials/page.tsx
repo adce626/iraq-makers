@@ -1,20 +1,43 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
+import Link from 'next/link';
 import { tutorials } from '@/lib/data';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Badge } from '@/components/ui/Badge';
 
 export default function TutorialsPage() {
-  const [expanded, setExpanded] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [difficultyFilter, setDifficultyFilter] = useState<string | null>(null);
 
-  const filtered = tutorials;
+  const difficulties = [...new Set(tutorials.map((t) => t.difficulty))];
+
+  const filtered = useMemo(() => {
+    let result = tutorials;
+
+    if (difficultyFilter) {
+      result = result.filter((t) => t.difficulty === difficultyFilter);
+    }
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      result = result.filter(
+        (t) =>
+          t.title.includes(q) ||
+          t.description.includes(q) ||
+          t.tags.some((tag) => tag.includes(q)) ||
+          t.components.some((c) => c.includes(q))
+      );
+    }
+
+    return result;
+  }, [searchQuery, difficultyFilter]);
 
   const difficultyColors = {
-    'مبتدئ': 'success',
-    'متوسط': 'info',
-    'متقدم': 'warning',
-  } as const;
+    'مبتدئ': 'success' as const,
+    'متوسط': 'info' as const,
+    'متقدم': 'warning' as const,
+  };
 
   return (
     <div className="pt-24 pb-20">
@@ -24,59 +47,73 @@ export default function TutorialsPage() {
           subtitle="دروس تعليمية وأكواد جاهزة لمشاريع Arduino و ESP32"
         />
 
+        <div className="max-w-4xl mx-auto mb-8 space-y-4">
+          <div className="relative">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="ابحث في الدروس..."
+              className="w-full bg-gray-900 text-white rounded-xl px-5 py-3.5 pe-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all"
+            />
+            <svg className="absolute start-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setDifficultyFilter(null)}
+              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
+                difficultyFilter === null
+                  ? 'bg-primary text-white'
+                  : 'bg-gray-900 text-gray-400 border border-gray-800 hover:border-primary/30'
+              }`}
+            >
+              الجميع
+            </button>
+            {difficulties.map((d) => (
+              <button
+                key={d}
+                onClick={() => setDifficultyFilter(d)}
+                className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
+                  difficultyFilter === d
+                    ? 'bg-primary text-white'
+                    : 'bg-gray-900 text-gray-400 border border-gray-800 hover:border-primary/30'
+                }`}
+              >
+                {d}
+              </button>
+            ))}
+          </div>
+        </div>
+
         <div className="max-w-4xl mx-auto space-y-6">
           {filtered.map((tutorial) => (
-            <div key={tutorial.id} className="bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden">
-              <button
-                onClick={() => setExpanded(expanded === tutorial.id ? null : tutorial.id)}
-                className="w-full text-right px-6 py-5 flex items-center justify-between hover:bg-white/5 transition-all"
-              >
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-1">
-                    <Badge variant={difficultyColors[tutorial.difficulty]}>{tutorial.difficulty}</Badge>
-                    <span className="text-xs text-gray-500">{tutorial.estimatedTime}</span>
-                  </div>
-                  <h3 className="text-lg font-semibold text-white">{tutorial.title}</h3>
-                  <p className="text-sm text-gray-400 mt-1 line-clamp-1">{tutorial.description}</p>
+            <div key={tutorial.id} className="bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden hover:border-primary/30 transition-all">
+              <Link href={`/tutorials/${tutorial.slug}`} className="block p-6 hover:bg-white/[0.02] transition-all">
+                <div className="flex items-center gap-2 mb-2">
+                  <Badge variant={difficultyColors[tutorial.difficulty]}>{tutorial.difficulty}</Badge>
+                  <span className="text-xs text-gray-500">{tutorial.estimatedTime}</span>
                 </div>
-                <svg className={`w-6 h-6 text-gray-500 shrink-0 mr-4 transition-transform ${expanded === tutorial.id ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-
-              {expanded === tutorial.id && (
-                <div className="px-6 pb-6 border-t border-gray-800 pt-4">
-                  <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-400 mb-2">المكونات المطلوبة:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {tutorial.components.map((c, i) => (
-                        <span key={i} className="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs">
-                          {c}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <h4 className="text-sm font-semibold text-gray-400 mb-2">الكود البرمجي:</h4>
-                  <pre className="bg-gray-950 rounded-xl p-4 overflow-x-auto border border-gray-800 text-sm text-gray-300 leading-relaxed mb-4" dir="ltr">
-                    <code>{tutorial.code}</code>
-                  </pre>
-
-                  <div className="flex items-center gap-2 text-xs text-gray-500">
-                    <span>منذ {tutorial.publishedAt}</span>
-                    {tutorial.tags.map((tag) => (
-                      <span key={tag} className="text-gray-600">#{tag}</span>
-                    ))}
-                  </div>
+                <h3 className="text-lg font-semibold text-white mb-2 hover:text-primary transition-all">{tutorial.title}</h3>
+                <p className="text-sm text-gray-400 mb-3 line-clamp-2">{tutorial.description}</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {tutorial.tags.slice(0, 3).map((tag) => (
+                    <span key={tag} className="text-xs text-gray-600">#{tag}</span>
+                  ))}
                 </div>
-              )}
+              </Link>
             </div>
           ))}
         </div>
 
         {filtered.length === 0 && (
           <div className="text-center py-16">
-            <p className="text-gray-500">لا توجد دروس متاحة حالياً</p>
+            <svg className="w-16 h-16 mx-auto text-gray-700 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <p className="text-gray-500">لا توجد دروس تطابق بحثك</p>
           </div>
         )}
       </div>

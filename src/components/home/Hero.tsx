@@ -5,8 +5,8 @@ export function Hero() {
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950" />
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/30 rounded-full blur-[100px]" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/20 rounded-full blur-[120px]" />
+        <div className="absolute top-20 start-10 w-72 h-72 bg-primary/30 rounded-full blur-[100px]" />
+        <div className="absolute bottom-20 end-10 w-96 h-96 bg-blue-500/20 rounded-full blur-[120px]" />
       </div>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent" />
 

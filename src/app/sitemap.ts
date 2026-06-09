@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const tutorialPages = tutorials.map((t) => ({
-    url: `${baseUrl}/tutorials`,
+    url: `${baseUrl}/tutorials/${t.slug}`,
     lastModified: new Date(t.publishedAt),
     changeFrequency: 'weekly' as const,
     priority: 0.7,

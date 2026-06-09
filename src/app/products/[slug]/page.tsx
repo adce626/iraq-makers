@@ -4,11 +4,12 @@ import { ProductDetail } from '@/components/product-detail/ProductDetail';
 import productsData from '@/data/products.json';
 
 interface Props {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
-export default function ProductDetailPage({ params }: Props) {
-  const product = getProductBySlug(params.slug);
+export default async function ProductDetailPage({ params }: Props) {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
   if (!product) notFound();
 
   const related = getRelatedProducts(product.id, 3);
@@ -20,8 +21,9 @@ export function generateStaticParams() {
   return productsData.map((p: any) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }: Props) {
-  const product = getProductBySlug(params.slug);
+export async function generateMetadata({ params }: Props) {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
   if (!product) return { title: 'المنتج غير موجود - مكونات العراق' };
 
   return {

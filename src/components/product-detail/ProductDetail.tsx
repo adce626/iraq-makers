@@ -9,7 +9,8 @@ import { Button } from '@/components/ui/Button';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import { ProductCard } from '@/components/products/ProductCard';
 import { SectionTitle } from '@/components/ui/SectionTitle';
-import { config } from '@/lib/data';
+import { ImageWithFallback } from '@/components/ui/ImageWithFallback';
+import { config, getCategoryById } from '@/lib/data';
 
 interface ProductDetailProps {
   product: Product;
@@ -18,6 +19,7 @@ interface ProductDetailProps {
 
 export function ProductDetail({ product, related }: ProductDetailProps) {
   const [activeTab, setActiveTab] = useState<'specs' | 'code' | 'faq'>('specs');
+  const [selectedImage, setSelectedImage] = useState(0);
 
   return (
     <div className="pt-24 pb-20">
@@ -28,33 +30,55 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
           <Link href="/products" className="hover:text-primary transition-all">المنتجات</Link>
           <span>/</span>
           <Link href={`/products?category=${product.category}`} className="hover:text-primary transition-all">
-            {product.category}
+            {getCategoryById(product.category)?.name || product.category}
           </Link>
           <span className="text-white">/</span>
           <span className="text-white">{product.name}</span>
         </nav>
 
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 mb-16">
-          <div>
-            <div className="aspect-square bg-gray-900 rounded-2xl border border-gray-800 flex items-center justify-center mb-4">
-              <div className="text-center">
-                <svg className="w-24 h-24 mx-auto text-gray-700 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <p className="text-gray-500 text-sm">صورة المنتج</p>
-              </div>
-            </div>
+          <div className="flex flex-col lg:flex-row gap-4">
             {product.images.length > 1 && (
-              <div className="grid grid-cols-4 gap-3">
-                {product.images.slice(0, 4).map((_, i) => (
-                  <div key={i} className={`aspect-square bg-gray-900 rounded-xl border ${i === 0 ? 'border-primary' : 'border-gray-800'} flex items-center justify-center cursor-pointer hover:border-primary transition-all`}>
-                    <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
+              <div className="flex lg:flex-col gap-3">
+                {product.images.slice(0, 4).map((img, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setSelectedImage(i)}
+                    className={`shrink-0 w-16 h-16 lg:w-20 lg:h-20 bg-gray-900 rounded-xl border overflow-hidden cursor-pointer transition-all ${
+                      i === selectedImage ? 'border-primary ring-2 ring-primary/30' : 'border-gray-800 hover:border-primary/50'
+                    }`}
+                  >
+                    <ImageWithFallback
+                      src={img}
+                      alt={`${product.name} - ${i + 1}`}
+                      className="w-full h-full object-contain"
+                      containerClassName="w-full h-full"
+                      iconSize="w-5 h-5"
+                    />
+                  </button>
                 ))}
               </div>
             )}
+            <div className="flex-1 flex items-center justify-center bg-gray-900 rounded-2xl border border-gray-800 min-h-[400px] lg:min-h-[500px] p-4">
+              {product.images[selectedImage] ? (
+                <ImageWithFallback
+                  src={product.images[selectedImage]}
+                  alt={product.name}
+                  className="max-w-full max-h-full object-contain rounded-lg"
+                  containerClassName="w-full h-full min-h-[400px] lg:min-h-[500px] flex items-center justify-center"
+                  iconSize="w-24 h-24"
+                />
+              ) : (
+                <div className="flex items-center justify-center">
+                  <div className="text-center">
+                    <svg className="w-24 h-24 mx-auto text-gray-700 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <p className="text-gray-500 text-sm">صورة المنتج</p>
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="mt-8 lg:mt-0">
@@ -187,15 +211,16 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
         {product.videoUrl && (
           <div className="mt-16">
             <SectionTitle title="فيديو تعريفي" subtitle="شاهد المنتج في العمل" />
-            <div className="aspect-video bg-gray-900 rounded-2xl border border-gray-800 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-20 h-20 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-10 h-10 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-                <p className="text-gray-500">فيديو قيد التحميل...</p>
-              </div>
+            <div className="max-w-3xl mx-auto bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden">
+              <video
+                controls
+                className="w-full aspect-video"
+                poster={product.images[0]}
+                playsInline
+              >
+                <source src={`/api/video?file=${encodeURIComponent(product.videoUrl!.split('/').pop()!)}`} type="video/mp4" />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
             </div>
           </div>
         )}

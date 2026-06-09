@@ -38,7 +38,6 @@ export interface Category {
   icon: string;
   description: string;
   order: number;
-  image?: string;
 }
 
 export interface SiteConfig {

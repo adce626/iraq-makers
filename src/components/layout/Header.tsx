@@ -2,12 +2,23 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { categories } from '@/lib/data';
 
 export function Header() {
+  const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/products?search=${encodeURIComponent(searchQuery.trim())}`);
+      setSearchOpen(false);
+      setSearchQuery('');
+    }
+  };
 
   const navLinks = [
     { href: '/', label: 'الرئيسية' },
@@ -19,7 +30,7 @@ export function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-950/90 backdrop-blur-lg border-b border-gray-800">
+    <header className="fixed top-0 start-0 end-0 z-50 bg-gray-950/90 backdrop-blur-lg border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
@@ -67,22 +78,25 @@ export function Header() {
           </div>
         </div>
 
-        {searchOpen && (
-          <div className="py-4 border-t border-gray-800">
-            <div className="relative">
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="ابحث عن منتجات..."
-                className="w-full bg-gray-900 text-white rounded-xl px-5 py-3 pr-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all"
-              />
-              <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+          {searchOpen && (
+            <div className="py-4 border-t border-gray-800">
+              <form onSubmit={handleSearch} className="relative">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="ابحث عن منتجات..."
+                  className="w-full bg-gray-900 text-white rounded-xl px-5 py-3 pr-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all"
+                  autoFocus
+                />
+                <button type="submit" className="absolute start-4 top-1/2 -translate-y-1/2">
+                  <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </button>
+              </form>
             </div>
-          </div>
-        )}
+          )}
       </div>
 
       {menuOpen && (
