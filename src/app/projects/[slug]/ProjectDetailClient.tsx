@@ -28,7 +28,7 @@ export function ProjectDetailClient({ params }: Props) {
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 mb-16">
           <div className="flex flex-col lg:flex-row gap-4">
             {project.images.length > 1 && (
-              <div className="flex lg:flex-col gap-3 order-first lg:order-none">
+              <div className="flex lg:flex-col gap-3 order-first lg:order-none overflow-x-auto flex-nowrap pb-2 -mb-2 scrollbar-thin">
                 {project.images.slice(0, 4).map((img, i) => (
                   <button
                     key={i}
@@ -48,13 +48,13 @@ export function ProjectDetailClient({ params }: Props) {
                 ))}
               </div>
             )}
-            <div className="flex-1 flex items-center justify-center bg-gray-900 rounded-2xl border border-gray-800 min-h-[300px] lg:min-h-[400px] p-4">
+            <div className="flex-1 flex items-center justify-center bg-gray-900 rounded-2xl border border-gray-800 min-h-[200px] lg:min-h-[400px] p-4">
               {project.images[selectedImage] ? (
                 <ImageWithFallback
                   src={project.images[selectedImage]}
                   alt={project.title}
                   className="max-w-full max-h-full object-contain rounded-lg"
-                  containerClassName="w-full h-full min-h-[300px] lg:min-h-[400px] flex items-center justify-center"
+                  containerClassName="w-full h-full min-h-[200px] lg:min-h-[400px] flex items-center justify-center"
                   iconSize="w-24 h-24"
                 />
               ) : (

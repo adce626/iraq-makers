@@ -92,7 +92,7 @@ function ProductsContent() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="ابحث عن منتج..."
-              className="w-full bg-gray-900 text-white rounded-xl px-5 py-3.5 pe-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all"
+              className="w-full bg-gray-900 text-white rounded-xl px-5 py-3.5 pe-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all min-h-[48px]"
             />
             <button type="submit" className="absolute start-4 top-1/2 -translate-y-1/2">
               <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -54,7 +54,7 @@ export default function TutorialsPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="ابحث في الدروس..."
-              className="w-full bg-gray-900 text-white rounded-xl px-5 py-3.5 pe-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all"
+              className="w-full bg-gray-900 text-white rounded-xl px-5 py-3.5 pe-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all min-h-[48px]"
             />
             <svg className="absolute start-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -64,7 +64,7 @@ export default function TutorialsPage() {
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => setDifficultyFilter(null)}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
+              className={`px-5 py-3 rounded-xl text-sm font-medium transition-all min-h-[44px] ${
                 difficultyFilter === null
                   ? 'bg-primary text-white'
                   : 'bg-gray-900 text-gray-400 border border-gray-800 hover:border-primary/30'
@@ -76,7 +76,7 @@ export default function TutorialsPage() {
               <button
                 key={d}
                 onClick={() => setDifficultyFilter(d)}
-                className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
+                className={`px-5 py-3 rounded-xl text-sm font-medium transition-all min-h-[44px] ${
                   difficultyFilter === d
                     ? 'bg-primary text-white'
                     : 'bg-gray-900 text-gray-400 border border-gray-800 hover:border-primary/30'
@@ -94,13 +94,13 @@ export default function TutorialsPage() {
               <Link href={`/tutorials/${tutorial.slug}`} className="block p-6 hover:bg-white/[0.02] transition-all">
                 <div className="flex items-center gap-2 mb-2">
                   <Badge variant={difficultyColors[tutorial.difficulty]}>{tutorial.difficulty}</Badge>
-                  <span className="text-xs text-gray-500">{tutorial.estimatedTime}</span>
+                  <span className="text-xs sm:text-sm text-gray-500">{tutorial.estimatedTime}</span>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2 hover:text-primary transition-all">{tutorial.title}</h3>
                 <p className="text-sm text-gray-400 mb-3 line-clamp-2">{tutorial.description}</p>
                 <div className="flex flex-wrap gap-1.5">
                   {tutorial.tags.slice(0, 3).map((tag) => (
-                    <span key={tag} className="text-xs text-gray-600">#{tag}</span>
+                    <span key={tag} className="text-xs sm:text-sm text-gray-600">#{tag}</span>
                   ))}
                 </div>
               </Link>

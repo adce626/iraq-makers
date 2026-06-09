@@ -33,7 +33,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
             {[
               { title: 'رؤيتنا', desc: 'أن نكون المنصة الأولى في العراق للمكونات الإلكترونية وتمكين جيل جديد من المبتكرين.' },
               { title: 'رسالتنا', desc: 'توفير مكونات أصلية مع دعم فني متكامل وأكواد جاهزة لتسهيل رحلة التعلم والتطوير.' },

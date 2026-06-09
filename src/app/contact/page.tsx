@@ -110,9 +110,9 @@ export default function ContactPage() {
                 { day: 'السبت - الخميس', time: '9:00 صباحاً - 8:00 مساءً' },
                 { day: 'الجمعة', time: '2:00 مساءً - 8:00 مساءً' },
               ].map((item) => (
-                <div key={item.day} className="flex items-center justify-between p-4 bg-gray-950 rounded-xl border border-gray-800">
-                  <span className="text-gray-400">{item.day}</span>
-                  <span className="text-white font-medium">{item.time}</span>
+                <div key={item.day} className="flex flex-col sm:flex-row items-start sm:items-center gap-1 sm:gap-2 p-4 bg-gray-950 rounded-xl border border-gray-800">
+                  <span className="text-gray-400 text-sm sm:text-base">{item.day}</span>
+                  <span className="text-white font-medium text-sm sm:text-base">{item.time}</span>
                 </div>
               ))}
             </div>

@@ -43,9 +43,9 @@ function LatestProjects({ projects }: { projects: Project[] }) {
                 <h3 className="font-semibold text-white group-hover:text-primary transition-all">{project.title}</h3>
                 <p className="text-sm text-gray-400 mt-1 line-clamp-2">{project.description}</p>
                 <div className="flex items-center gap-2 mt-3">
-                  <span className="text-xs text-gray-500">{project.customerCity}</span>
-                  <span className="text-xs text-gray-600">•</span>
-                  <span className="text-xs text-gray-500">{project.difficulty}</span>
+                  <span className="text-sm text-gray-500">{project.customerCity}</span>
+                  <span className="text-sm text-gray-600">•</span>
+                  <span className="text-sm text-gray-500">{project.difficulty}</span>
                 </div>
               </div>
             </Link>

@@ -39,7 +39,7 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 mb-16">
           <div className="flex flex-col lg:flex-row gap-4">
             {product.images.length > 1 && (
-              <div className="flex lg:flex-col gap-3">
+              <div className="flex lg:flex-col gap-3 overflow-x-auto flex-nowrap pb-2 -mb-2 scrollbar-thin">
                 {product.images.slice(0, 4).map((img, i) => (
                   <button
                     key={i}
@@ -59,13 +59,13 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
                 ))}
               </div>
             )}
-            <div className="flex-1 flex items-center justify-center bg-gray-900 rounded-2xl border border-gray-800 min-h-[400px] lg:min-h-[500px] p-4">
+            <div className="flex-1 flex items-center justify-center bg-gray-900 rounded-2xl border border-gray-800 min-h-[250px] lg:min-h-[500px] p-4">
               {product.images[selectedImage] ? (
                 <ImageWithFallback
                   src={product.images[selectedImage]}
                   alt={product.name}
                   className="max-w-full max-h-full object-contain rounded-lg"
-                  containerClassName="w-full h-full min-h-[400px] lg:min-h-[500px] flex items-center justify-center"
+                  containerClassName="w-full h-full min-h-[250px] lg:min-h-[500px] flex items-center justify-center"
                   iconSize="w-24 h-24"
                 />
               ) : (

@@ -32,7 +32,7 @@ export default function ProjectsPage() {
         <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
           <button
             onClick={() => setFilter(null)}
-            className={`px-5 py-2.5 rounded-xl text-sm font-medium transition-all ${
+            className={`px-5 py-3 rounded-xl text-sm font-medium transition-all min-h-[44px] ${
               filter === null
                 ? 'bg-primary text-white'
                 : 'bg-gray-900 text-gray-400 border border-gray-800 hover:border-primary/30'
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
             <button
               key={d}
               onClick={() => setFilter(d)}
-              className={`px-5 py-2.5 rounded-xl text-sm font-medium transition-all ${
+              className={`px-5 py-3 rounded-xl text-sm font-medium transition-all min-h-[44px] ${
                 filter === d
                   ? 'bg-primary text-white'
                   : 'bg-gray-900 text-gray-400 border border-gray-800 hover:border-primary/30'
@@ -97,12 +97,12 @@ export default function ProjectsPage() {
                   <h3 className="text-lg font-semibold text-white mb-2 hover:text-primary transition-all">{project.title}</h3>
                 </Link>
                 <p className="text-sm text-gray-400 mb-4 line-clamp-2">{project.description}</p>
-                <div className="flex items-center justify-between text-sm mb-4">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm mb-4">
                   <div className="flex items-center gap-2 text-gray-500">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
-                    {project.customerName} - {project.customerCity}
+                    <span className="break-words">{project.customerName} - {project.customerCity}</span>
                   </div>
                   <span className="text-gray-600">{project.completedAt}</span>
                 </div>

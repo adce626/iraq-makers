@@ -54,7 +54,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <button
               onClick={() => setSearchOpen(!searchOpen)}
-              className="p-2 text-gray-400 hover:text-white hover:bg-white/10 rounded-lg transition-all"
+              className="p-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-lg transition-all"
               aria-label="بحث"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -64,7 +64,7 @@ export function Header() {
 
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="lg:hidden p-2 text-gray-400 hover:text-white hover:bg-white/10 rounded-lg transition-all"
+              className="lg:hidden p-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-lg transition-all"
               aria-label="القائمة"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -86,7 +86,7 @@ export function Header() {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="ابحث عن منتجات..."
-                  className="w-full bg-gray-900 text-white rounded-xl px-5 py-3 pr-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all"
+                  className="w-full bg-gray-900 text-white rounded-xl px-5 py-3.5 pr-12 placeholder-gray-500 border border-gray-700 focus:border-primary focus:outline-none transition-all min-h-[48px]"
                   autoFocus
                 />
                 <button type="submit" className="absolute start-4 top-1/2 -translate-y-1/2">
@@ -107,19 +107,19 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="block px-4 py-3 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all"
+                className="block px-4 py-3 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all min-h-[44px]"
               >
                 {link.label}
               </Link>
             ))}
             <hr className="border-gray-800 my-3" />
-            <p className="px-4 text-xs text-gray-500 mb-2">التصنيفات</p>
+            <p className="px-4 text-xs sm:text-sm text-gray-500 mb-2">التصنيفات</p>
             {categories.map((cat) => (
               <Link
                 key={cat.id}
                 href={`/products?category=${cat.id}`}
                 onClick={() => setMenuOpen(false)}
-                className="block px-4 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition-all"
+                className="block px-4 py-3 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition-all min-h-[44px]"
               >
                 {cat.name}
               </Link>

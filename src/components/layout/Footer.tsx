@@ -16,22 +16,22 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-3">
               {config.social.facebook && (
-                <a href={config.social.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
+                <a href={config.social.facebook} target="_blank" rel="noopener noreferrer" className="w-11 h-11 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
                   <FacebookIcon />
                 </a>
               )}
               {config.social.instagram && (
-                <a href={config.social.instagram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
+                <a href={config.social.instagram} target="_blank" rel="noopener noreferrer" className="w-11 h-11 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
                   <InstagramIcon />
                 </a>
               )}
               {config.social.youtube && (
-                <a href={config.social.youtube} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
+                <a href={config.social.youtube} target="_blank" rel="noopener noreferrer" className="w-11 h-11 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
                   <YoutubeIcon />
                 </a>
               )}
               {config.social.telegram && (
-                <a href={config.social.telegram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
+                <a href={config.social.telegram} target="_blank" rel="noopener noreferrer" className="w-11 h-11 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all">
                   <TelegramIcon />
                 </a>
               )}

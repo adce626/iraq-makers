@@ -91,7 +91,7 @@ export default async function TutorialDetailPage({ params }: Props) {
         <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500 mb-12">
           <span>نُشر {tutorial.publishedAt}</span>
           {tutorial.tags.map((tag) => (
-            <span key={tag} className="text-gray-600">#{tag}</span>
+            <span key={tag} className="text-gray-600 text-sm">#{tag}</span>
           ))}
         </div>
 

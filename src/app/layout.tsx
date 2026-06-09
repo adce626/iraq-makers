@@ -42,7 +42,7 @@ export default function RootLayout({
       dir="rtl"
       className={`${cairo.variable} ${tajawal.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-cairo bg-gray-950 text-white">
+      <body className="min-h-full flex flex-col font-cairo bg-gray-950 text-white overflow-x-hidden">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
