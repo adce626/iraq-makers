@@ -127,7 +127,7 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
               <button
                 key={key}
                 onClick={() => setActiveTab(key)}
-                className={`flex-1 px-6 py-4 text-sm font-medium transition-all ${
+                className={`flex-1 px-2 sm:px-6 py-4 text-xs sm:text-sm font-medium transition-all ${
                   activeTab === key
                     ? 'text-primary border-b-2 border-primary bg-primary/5'
                     : 'text-gray-400 hover:text-white hover:bg-white/5'
@@ -142,7 +142,7 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
             {activeTab === 'specs' && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {Object.entries(product.specs).map(([key, value]) => (
-                  <div key={key} className="flex items-center justify-between p-4 bg-gray-950 rounded-xl border border-gray-800">
+                  <div key={key} className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 p-4 bg-gray-950 rounded-xl border border-gray-800">
                     <span className="text-gray-400 text-sm">{key}</span>
                     <span className="text-white font-medium text-sm">{value}</span>
                   </div>
@@ -177,7 +177,7 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
                 ) : (
                   product.faq.map((item, i) => (
                     <details key={i} className="group bg-gray-950 rounded-xl border border-gray-800 overflow-hidden">
-                      <summary className="flex items-center justify-between px-6 py-4 text-white font-medium cursor-pointer hover:bg-white/5 transition-all">
+                      <summary className="flex items-center justify-between px-4 sm:px-6 py-4 text-white font-medium cursor-pointer hover:bg-white/5 transition-all min-h-[48px]">
                         {item.q}
                         <svg className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

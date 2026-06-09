@@ -39,7 +39,7 @@ export function CategoriesShowcase({ categories }: CategoriesShowcaseProps) {
             <Link
               key={cat.id}
               href={`/products?category=${cat.id}`}
-              className="group flex flex-col items-center gap-3 p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all"
+              className="group flex flex-col items-center gap-3 p-4 sm:p-6 bg-gray-900 rounded-2xl border border-gray-800 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all"
             >
               <div className="w-14 h-14 rounded-xl bg-gray-800 text-gray-400 flex items-center justify-center group-hover:bg-primary/10 group-hover:text-primary transition-all">
                 {iconMap[cat.icon] || (

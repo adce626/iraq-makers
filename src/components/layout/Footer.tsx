@@ -41,11 +41,11 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">روابط سريعة</h4>
             <ul className="space-y-2">
-              <li><Link href="/products" className="text-gray-400 hover:text-primary text-sm transition-all">جميع المنتجات</Link></li>
-              <li><Link href="/projects" className="text-gray-400 hover:text-primary text-sm transition-all">مشاريع الزبائن</Link></li>
-              <li><Link href="/tutorials" className="text-gray-400 hover:text-primary text-sm transition-all">دروس وأكواد</Link></li>
-              <li><Link href="/about" className="text-gray-400 hover:text-primary text-sm transition-all">من نحن</Link></li>
-              <li><Link href="/contact" className="text-gray-400 hover:text-primary text-sm transition-all">اتصل بنا</Link></li>
+              <li><Link href="/products" className="block py-2 text-gray-400 hover:text-primary text-sm transition-all">جميع المنتجات</Link></li>
+              <li><Link href="/projects" className="block py-2 text-gray-400 hover:text-primary text-sm transition-all">مشاريع الزبائن</Link></li>
+              <li><Link href="/tutorials" className="block py-2 text-gray-400 hover:text-primary text-sm transition-all">دروس وأكواد</Link></li>
+              <li><Link href="/about" className="block py-2 text-gray-400 hover:text-primary text-sm transition-all">من نحن</Link></li>
+              <li><Link href="/contact" className="block py-2 text-gray-400 hover:text-primary text-sm transition-all">اتصل بنا</Link></li>
             </ul>
           </div>
 
@@ -54,7 +54,7 @@ export function Footer() {
             <ul className="space-y-2">
               {categories.slice(0, 6).map((cat) => (
                 <li key={cat.id}>
-                  <Link href={`/products?category=${cat.id}`} className="text-gray-400 hover:text-primary text-sm transition-all">
+                  <Link href={`/products?category=${cat.id}`} className="block py-2 text-gray-400 hover:text-primary text-sm transition-all">
                     {cat.name}
                   </Link>
                 </li>
@@ -66,13 +66,13 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-4">تواصل معنا</h4>
             <ul className="space-y-3">
               <li>
-                <a href={`tel:${config.phone}`} className="flex items-center gap-2 text-gray-400 hover:text-primary text-sm transition-all">
+                <a href={`tel:${config.phone}`} className="flex items-center gap-2 py-2 text-gray-400 hover:text-primary text-sm transition-all">
                   <PhoneIcon className="w-4 h-4" />
                   {config.phone}
                 </a>
               </li>
               <li>
-                <a href={`mailto:${config.email}`} className="flex items-center gap-2 text-gray-400 hover:text-primary text-sm transition-all">
+                <a href={`mailto:${config.email}`} className="flex items-center gap-2 py-2 text-gray-400 hover:text-primary text-sm transition-all">
                   <EmailIcon className="w-4 h-4" />
                   {config.email}
                 </a>
