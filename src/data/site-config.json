@@ -1,0 +1,18 @@
+{
+  "name": "مكونات العراق",
+  "nameEn": "Arduino Iraq",
+  "description": "متجر إلكتروني عراقي متخصص في بيع مكونات Arduino، ESP32، شاشات LED، حساسات، ومحركات.",
+  "whatsappNumber": "9647700000000",
+  "whatsappMessage": "مرحباً! أود الاستفسار عن منتج: ",
+  "phone": "0770 000 0000",
+  "email": "info@arduino-iraq.com",
+  "address": "بغداد، العراق",
+  "social": {
+    "facebook": "https://facebook.com/arduinoiraq",
+    "instagram": "https://instagram.com/arduinoiraq",
+    "telegram": "https://t.me/arduinoiraq",
+    "youtube": "https://youtube.com/@arduinoiraq"
+  },
+  "currency": "IQD",
+  "shippingInfo": "شحن سريع إلى جميع محافظات العراق خلال 3-7 أيام عمل. توصيل مجاني للطلبات فوق 50,000 دينار."
+}

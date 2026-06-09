@@ -1,0 +1,41 @@
+[
+  {
+    "id": "smart-clock-led-matrix",
+    "slug": "smart-clock-led-matrix",
+    "title": "ساعة رقمية ذكية بشاشة LED",
+    "description": "ساعة رقمية تعرض الوقت والتاريخ ودرجة الحرارة باستخدام شاشة LED 8×8 و ESP32. الساعة تتصل بالإنترنت لعرض الوقت الدقيق.",
+    "customerName": "علي ر.",
+    "customerCity": "بغداد",
+    "images": ["/images/projects/smart-clock-1.jpg", "/images/projects/smart-clock-2.jpg"],
+    "productsUsed": ["led-matrix-8x8-rgb", "esp32-devkit-v4", "dht22-sensor"],
+    "difficulty": "متوسط",
+    "completedAt": "2026-03-01",
+    "featured": true
+  },
+  {
+    "id": "robot-car",
+    "slug": "robot-car",
+    "title": "سيارة روبوتية متحكمة بالجوال",
+    "description": "سيارة روبوتية يمكن التحكم بها عبر تطبيق الجوال Bluetooth. تحتوي على حساس مسافة لتجنب العوائق تلقائياً.",
+    "customerName": "حسن م.",
+    "customerCity": "أربيل",
+    "images": ["/images/projects/robot-car-1.jpg"],
+    "productsUsed": ["arduino-uno-r3", "l298n-motor-driver", "hc05-bluetooth", "hc-sr04-ultrasonic"],
+    "difficulty": "متوسط",
+    "completedAt": "2026-02-20",
+    "featured": true
+  },
+  {
+    "id": "iot-weather-station",
+    "slug": "iot-weather-station",
+    "title": "محطة طقس منزلية IoT",
+    "description": "محطة طقس متكاملة تقيس درجة الحرارة والرطوبة والضغط وترسل البيانات إلى الإنترنت لعرضها على تطبيق جوال.",
+    "customerName": "زينب ع.",
+    "customerCity": "البصرة",
+    "images": ["/images/projects/weather-station-1.jpg"],
+    "productsUsed": ["esp32-devkit-v4", "dht22-sensor"],
+    "difficulty": "متقدم",
+    "completedAt": "2026-01-15",
+    "featured": false
+  }
+]
