@@ -3,6 +3,7 @@ import { WhyUs } from '@/components/home/WhyUs';
 import { FeaturedProducts } from '@/components/home/FeaturedProducts';
 import { CategoriesShowcase } from '@/components/home/CategoriesShowcase';
 import { getFeaturedProducts, categories, projects } from '@/lib/data';
+import Image from 'next/image';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import Link from 'next/link';
 import { Project } from '@/types';
@@ -26,12 +27,14 @@ function LatestProjects({ projects }: { projects: Project[] }) {
               href="/projects"
               className="group bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden hover:border-primary/30 transition-all"
             >
-              <div className="aspect-video bg-gray-800 flex items-center justify-center overflow-hidden">
+              <div className="relative aspect-video bg-gray-800 flex items-center justify-center overflow-hidden">
                 {project.images[0] ? (
-                  <img
+                  <Image
                     src={project.images[0]}
                     alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 ) : (
                   <svg className="w-12 h-12 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">

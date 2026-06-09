@@ -130,7 +130,7 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="animate-pulse">
             <div className="h-8 bg-gray-800 rounded-lg w-48 mb-4 mx-auto" />
-            <div className="h-4 bg-gray-800 rounded-lg w-96 mb-12 mx-auto" />
+            <div className="h-4 bg-gray-800 rounded-lg w-64 sm:w-96 mb-12 mx-auto" />
             <div className="grid lg:grid-cols-4 gap-8">
               <div className="h-96 bg-gray-800 rounded-2xl" />
               <div className="lg:col-span-3 grid grid-cols-3 gap-6">

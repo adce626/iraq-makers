@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function Hero() {
   return (
-    <section className="relative min-h-[85vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[70vh] lg:min-h-[85vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950" />
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 start-10 w-72 h-72 bg-primary/30 rounded-full blur-[100px]" />

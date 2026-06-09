@@ -59,13 +59,13 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
                 ))}
               </div>
             )}
-            <div className="flex-1 flex items-center justify-center bg-gray-900 rounded-2xl border border-gray-800 min-h-[250px] lg:min-h-[500px] p-4">
+            <div className="flex-1 flex items-center justify-center bg-gray-900 rounded-2xl border border-gray-800 min-h-[200px] sm:min-h-[300px] lg:min-h-[500px] p-4">
               {product.images[selectedImage] ? (
                 <ImageWithFallback
                   src={product.images[selectedImage]}
                   alt={product.name}
                   className="max-w-full max-h-full object-contain rounded-lg"
-                  containerClassName="w-full h-full min-h-[250px] lg:min-h-[500px] flex items-center justify-center"
+                  containerClassName="w-full h-full min-h-[200px] sm:min-h-[300px] lg:min-h-[500px] flex items-center justify-center"
                   iconSize="w-24 h-24"
                 />
               ) : (

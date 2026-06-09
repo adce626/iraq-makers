@@ -13,7 +13,7 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="group bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300">
       <Link href={`/products/${product.slug}`} className="block">
-        <div className="relative bg-gray-900 flex items-center justify-center px-2 py-4 h-56 sm:h-64">
+        <div className="relative bg-gray-900 flex items-center justify-center px-2 py-4 h-44 sm:h-56">
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-transparent to-transparent z-10" />
           {product.images[0] ? (
             <ImageWithFallback
